@@ -13,7 +13,7 @@ footer {
 }
 
 main {
-  background-color: rgb(43, 43, 43);
+  background-color: black;
 }
 
 .header-logo {
@@ -79,4 +79,19 @@ main {
 .contacts a {
   text-decoration: none;
   color: white;
+}
+
+.mia-foto {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.mini-bio {
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
 }
