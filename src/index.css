@@ -95,3 +95,8 @@ main {
   justify-content: center;
   font-size: 1.4rem;
 }
+
+.working-with{
+  font-weight: bold;
+  color: rgb(206, 83, 37);
+}
