@@ -14,8 +14,8 @@ const Footer = () => {
             </div>
             <div className="col-6 mt-4">
               <div className="contacts">
-                <span className='fs-2'>I miei contatti</span>
                 <ul className='mt-3'>
+                  <span className='fs-2'>I miei contatti</span>
                   <li><i className="fa-solid fa-at"></i> fabioferrari.ff00@gmail.com</li>
                   <li><i className="fa-solid fa-phone"></i> +39 3400802727</li>
                   <li><a className='me-4' href="https://www.linkedin.com/in/fabio-ferrari-571443254/" target="_blank">
