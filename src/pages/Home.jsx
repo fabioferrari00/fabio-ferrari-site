@@ -1,18 +1,10 @@
 import React from 'react'
+import Jumbotron from '../components/Jumbotron'
 
 const Home = () => {
   return (
     <>
-      <div className="jumbotron">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <img className='logo-jumbo' src="../src/assets/logoMio-Photoroom.png" alt="" />
-              <h1 className="jumbo-title">Fabio Ferrari - Web Developer</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Jumbotron />
       <div className="container">
         <div className="row">
           <div className="col-6">
@@ -45,11 +37,11 @@ const Home = () => {
           </div>
           <div className="row ">
             <div className="col-6 d-flex justify-content-center"><a className='me-4' href="https://www.linkedin.com/in/fabio-ferrari-571443254/" target="_blank">
-                    <i className="fa-brands fa-linkedin"></i> Linkedin
-                  </a></div>
+              <i className="fa-brands fa-linkedin"></i> Linkedin
+            </a></div>
             <div className="col-6 d-flex justify-content-center"><a href="https://github.com/fabioferrari00" target="_blank">
-                    <i className="fa-brands fa-github"></i> Github
-                  </a></div>
+              <i className="fa-brands fa-github"></i> Github
+            </a></div>
           </div>
         </div>
       </div>

@@ -96,31 +96,36 @@ main {
   font-size: 1.4rem;
 }
 
-.working-with{
+.working-with {
   font-weight: bold;
 }
 
-.color-orange{
+.color-orange {
   color: rgb(206, 83, 37);
 }
 
-.bg-orange{
+.bg-orange {
   background-color: rgb(206, 83, 37);
 }
 
-.socials .title{
+.socials .title {
   font-weight: bold;
   color: black;
 }
 
-.socials a{
+.socials a {
   color: black;
   text-decoration: none;
-  font-size:1.7rem;
-  text-align: center ;
+  font-size: 1.7rem;
+  text-align: center;
 }
 
-.socials a:hover{
+.socials a:hover {
   text-decoration: underline;
   font-size: 2rem;
+}
+
+.bio {
+  color: white;
+  font-size: 1.3rem;
 }
